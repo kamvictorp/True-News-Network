@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>True News Network</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="date-display" id="current-date"></div>
+            <div class="logo">TNN</div>
+            <div class="weather">28°C <i class="fas fa-sun"></i></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Science</a></li>
+                <li><a href="#">Health</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Sports</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="breaking-news">
+        <div class="breaking-news-label">BREAKING:</div>
+        <div class="breaking-news-content">
+            <p>Major earthquake hits Indonesia, tsunami warning issued for coastal areas. Rescue operations underway.</p>
+        </div>
+    </div>
+
+    <main>
+        <section class="featured-news">
+            <div class="main-feature">
+                <img src="img/world.png" alt="Featured News">
+                <div class="feature-overlay">
+                    <span class="category-tag world">World</span>
+                    <h1>Global Leaders Gather for Climate Summit Amid Rising Temperatures</h1>
+                    <p>World leaders convene in emergency session as new data shows accelerating climate change impacts.</p>
+                    <div class="meta">
+                        <span class="author">By Victor Kamanda</span>
+                        <span class="time">2 hours ago</span>
+                    </div>
+                </div>
+            </div>
+            <div class="secondary-features">
+                <div class="secondary-feature">
+                    <img src="img/politics.png" alt="News 1">
+                    <div class="feature-overlay">
+                        <span class="category-tag politics">Politics</span>
+                        <h2>Congress Passes Historic Infrastructure Bill After Months of Negotiations</h2>
+                        <div class="meta">
+                            <span class="time">4 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="secondary-feature">
+                    <img src="img/tech.jpg" alt="News 2">
+                    <div class="feature-overlay">
+                        <span class="category-tag technology">Technology</span>
+                        <h2>Apple Unveils Revolutionary New AR Glasses at Developer Conference</h2>
+                        <div class="meta">
+                            <span class="time">6 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-ticker">
+            <div class="ticker-label">Latest Updates:</div>
+            <div class="ticker-content">
+                <ul id="ticker-items">
+                    <li>Stock markets reach record highs amid economic recovery</li>
+                    <li>Scientists discover potential breakthrough in cancer treatment</li>
+                    <li>Olympic Committee announces new host city for 2032 Games</li>
+                    <li>Cybersecurity breach affects millions of social media users</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="news-grid">
+            <h2 class="section-title">Top Stories</h2>
+            <div class="grid-container">
+                <article class="news-card">
+                    <img src="img/health.jpg" alt="News">
+                    <div class="card-content">
+                        <span class="category-tag health">Health</span>
+                        <h3>New Study Reveals Benefits of Mediterranean Diet for Longevity</h3>
+                        <p>Research confirms significant health improvements for those following the diet pattern.</p>
+                        <div class="meta">
+                            <span class="author">By Dr. Michael Chen</span>
+                            <span class="time">Yesterday</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="img/business.jpg" alt="News">
+                    <div class="card-content">
+                        <span class="category-tag business">Business</span>
+                        <h3>Major Merger Creates New Tech Giant in Cloud Computing Space</h3>
+                        <p>The $45 billion deal is expected to reshape the competitive landscape.</p>
+                        <div class="meta">
+                            <span class="time">Yesterday</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="img/sport.jpg" alt="News">
+                    <div class="card-content">
+                        <span class="category-tag sports">Sports</span>
+                        <h3>Topping Premier League Table:E.E Lions Chairman Navo celebrates Team</h3>
+                        <p>Chairman of East End Lions Football Club, has congratulated the Team for its incredible performances, leading to the Team taking first position on the Premier League Table.
+</p>
+                        <div class="meta">
+                            <span class="time">2 days ago</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="img/ente.png" alt="News">
+                    <div class="card-content">
+                        <span class="category-tag entertainment">Entertainment</span>
+                        <h3>Award-Winning Director Announces New Film Project With All-Star Cast</h3>
+                        <p>The production is already generating Oscar buzz before filming begins.</p>
+                        <div class="meta">
+                            <span class="author">By Entertainment Desk</span>
+                            <span class="time">2 days ago</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="img/science.jpg" alt="News">
+                    <div class="card-content">
+                        <span class="category-tag science">Science</span>
+                        <h3>NASA's Mars Rover Makes Unexpected Discovery About Planet's History</h3>
+                        <p>Findings could rewrite our understanding of the Red Planet's evolution.</p>
+                        <div class="meta">
+                            <span class="time">3 days ago</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="img/wor.png" alt="News">
+                    <div class="card-content">
+                        <span class="category-tag world">World</span>
+                        <h3>Diplomatic Breakthrough Eases Tensions Between Neighboring Countries</h3>
+                        <p>After years of conflict, leaders announce framework for peace agreement.</p>
+                        <div class="meta">
+                            <span class="author">By Foreign Correspondent</span>
+                            <span class="time">3 days ago</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <button class="load-more">Load More Stories</button>
+        </section>
+
+        <section class="video-highlights">
+            <h2 class="section-title">Video Reports</h2>
+            <div class="video-container">
+                <div class="main-video">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play"></i>
+                        <img src="img/live.jpg" alt="Video Thumbnail">
+                    </div>
+                    <h3>Live: Press Conference on Economic Recovery Plan</h3>
+                </div>
+                <div class="video-sidebar">
+                    <div class="video-thumbnail">
+                        <div class="video-placeholder small">
+                            <i class="fas fa-play"></i>
+                            <img src="img/analy.jpg" alt="Video Thumbnail">
+                        </div>
+                        <h4>Analysis: The Week in Politics</h4>
+                    </div>
+                    <div class="video-thumbnail">
+                        <div class="video-placeholder small">
+                            <i class="fas fa-play"></i>
+                            <img src="img/techo.jpg" alt="Video Thumbnail">
+                        </div>
+                        <h4>Tech Review: New Smartphone Features</h4>
+                    </div>
+                    <div class="video-thumbnail">
+                        <div class="video-placeholder small">
+                            <i class="fas fa-play"></i>
+                            <img src="img/sports.jpg" alt="Video Thumbnail">
+                        </div>
+                        <h4>Sports: Championship Highlights</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About TNN</h3>
+                <p>True News Network brings you accurate, timely news from around the world. Our team of award-winning journalists works around the clock to deliver trusted reporting.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Advertise</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our daily briefing</p>
+                <form>
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 True News Network. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
